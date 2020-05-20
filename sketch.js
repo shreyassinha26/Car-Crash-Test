@@ -3,11 +3,11 @@ var speed , weight , deformation;
 var gamestate , PLAY , END;
 
 function setup() {
-  createCanvas(1600,400);
+  createCanvas(1300,400);
   PLAY = 0;
   END = 1;
   gamestate = PLAY;
-  wall = createSprite(1500 , 200  , 60 , height/2);
+  wall = createSprite(1200 , 200  , 60 , height/2);
   car = createSprite(50, 200, 50, 50);
   deformation = 0;
   speed = Math.round(random(55 , 90));
